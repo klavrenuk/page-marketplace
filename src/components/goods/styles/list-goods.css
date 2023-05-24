@@ -1,0 +1,22 @@
+.list_goods {
+  border-bottom: 1px solid #E8E8E8;
+}
+.list_goods .product {
+  padding-bottom: 16px;
+}
+.list_goods .product:nth-child(2n) {
+  padding-left: 16px;
+  border-left: 1px solid #E8E8E8;
+}
+.list_goods .product:nth-child(2n) .slider-arrow--right {
+  right: -20px;
+}
+.list_goods .product:nth-child(2n+1) {
+  padding-right: 16px;
+}
+.list_goods .product:nth-child(2n+1) .slider-arrows {
+  left: -17px;
+}
+.list_goods .product:nth-child(2n+1) .slider-arrows .slider-arrow--right {
+  right: -28px;
+}

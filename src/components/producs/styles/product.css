@@ -1,0 +1,96 @@
+.product {
+  position: relative;
+}
+.product .slider-arrows {
+  position: absolute;
+  top: 57px;
+  left: 0;
+  width: 100%;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+}
+.product .product-container_img {
+  position: relative;
+}
+.product .product-container_img .btn-close {
+  position: absolute;
+  top: 13px;
+  right: -13px;
+}
+.product .product-container_img .img-wrap {
+  width: 120px;
+  height: 148px;
+}
+.product .product-container_img .img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.product .product-container_img .count_img {
+  margin: 5px 0 16px;
+  color: #7B7B7B;
+  font-size: 14px;
+}
+.product .product-info {
+  margin-top: 24px;
+}
+.product .product-info .product-info-title {
+  margin-bottom: 7px;
+  color: #4074C1;
+  font-weight: 500;
+  font-size: 16px;
+}
+.product .product-info .product-info-sum {
+  margin: 5px 0;
+  color: #272727;
+  font-size: 18px;
+}
+.product .product-info .product-info-offers {
+  color: #4074C1;
+  font-size: 14px;
+  font-weight: 400;
+}
+.product .product-info .product-info-buy {
+  margin-top: 1rem;
+}
+.product .product-info .product-info-buy .product-info-buy-btn {
+  height: 40px;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 6px;
+  color: #171923;
+  font-size: 13px;
+  font-weight: 700;
+  background: #FFC800;
+}
+.product .product-info-watched {
+  margin-top: 0;
+  padding-top: 8px;
+}
+.product .product-info-watched .product-info-sum {
+  margin-bottom: 0;
+}
+.product .product-info-watched .product-info-buy {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product .product-info-watched .product-info-buy .product-info-buy-btn {
+  height: 34px;
+  margin-right: 10px;
+  padding: 0 11px;
+  font-size: 12px;
+}
+.product .product-info-watched .product-info-buy .product-info-buy-controls {
+  display: flex;
+  align-items: center;
+}
+.product .product-info-watched .product-info-buy .product-info-buy-controls .btn-connection {
+  margin-left: 9px;
+}

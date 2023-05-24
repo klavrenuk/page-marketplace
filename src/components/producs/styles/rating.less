@@ -1,0 +1,32 @@
+.rating {
+  padding: 7px 0;
+
+  & .rating-container {
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+
+    & > span {
+      margin-right: 3px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    & .mark,
+    & .comments {
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    & .mark {
+      color: #272727
+    }
+
+    & .comments {
+      color: #7B7B7B;
+      line-height: 150%;
+    }
+  }
+}

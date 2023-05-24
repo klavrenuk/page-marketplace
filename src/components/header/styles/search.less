@@ -1,0 +1,28 @@
+@paddingInput: 12px;
+@buttonWidth: 20px;
+
+.search {
+  position: relative;
+  padding: 4px 0;
+
+  & .search-input {
+    padding: 10px @paddingInput;
+    padding-right: calc(@paddingInput + @buttonWidth + 5px); // 5px - additional padding
+    border: 2px solid #FFC800;
+    border-radius: 4px;
+    color: #9F9F9F;
+    font-size: 14px;
+    font-weight: 400;
+    background: #FFFFFF;
+
+    &:hover, &:active, &:focus {
+      border-color: #FFC800 !important;
+    }
+  }
+
+  & .search-btn {
+    position: absolute;
+    top: 14px;
+    right: @paddingInput;
+  }
+}

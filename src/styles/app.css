@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Druk Bold';
+  src: url('/public/fonts/Druk-Text-Wide-Cyrillic/druk-text-wide-cyr-bold.otf');
+}
+:root {
+  background: #fff;
+}
+body {
+  color: #272727;
+  line-height: 16px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 400;
+}
+input {
+  outline: none !important;
+}
+.app-container {
+  padding: 0 16px;
+}
+.app-main {
+  padding: 20px 0 48px;
+}

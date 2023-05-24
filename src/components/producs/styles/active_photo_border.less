@@ -1,0 +1,40 @@
+.active_photo_border {
+  position: relative;
+  border-bottom: 1px solid #E8E8E8;
+
+  & .block {
+    position: relative;
+    height: 3px;
+    border-radius: 3px;
+    opacity: 0;
+    background: #DBDBDB;
+
+    &:after {
+      content: '';
+      position: absolute;
+      height: 1px;
+      width: 100%;
+      bottom: -1px;
+      left: 0;
+      border-radius: 3px;
+      opacity: 0;
+      background: #DBDBDB;
+    }
+
+    &.active {
+      opacity: 1;
+
+      &:after {
+        opacity: 1;
+      }
+    }
+
+    &.block.center {
+      bottom: -2px;
+
+      &:after {
+        display: none;
+      }
+    }
+  }
+}

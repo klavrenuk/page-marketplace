@@ -1,0 +1,24 @@
+.search {
+  position: relative;
+  padding: 4px 0;
+}
+.search .search-input {
+  padding: 10px 12px;
+  padding-right: calc(12px + 20px + 5px);
+  border: 2px solid #FFC800;
+  border-radius: 4px;
+  color: #9F9F9F;
+  font-size: 14px;
+  font-weight: 400;
+  background: #FFFFFF;
+}
+.search .search-input:hover,
+.search .search-input:active,
+.search .search-input:focus {
+  border-color: #FFC800 !important;
+}
+.search .search-btn {
+  position: absolute;
+  top: 14px;
+  right: 12px;
+}

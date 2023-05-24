@@ -1,0 +1,52 @@
+.option {
+  &-header {
+    padding: 16.5px 0;
+    justify-content: space-between;
+    border-bottom: 1px solid #E8E8E8;
+
+    &-title {
+      font-family: 'Druk Bold', serif;
+      font-size: 20px;
+      line-height: 116%;
+    }
+  }
+
+  & .option-body-subtitle {
+    margin: 16px 0 20px;
+    font-size: 16px;
+    line-height: 120%;
+  }
+
+  & .option-body-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+
+    &:nth-child(2n) {
+      padding-left: 8px;
+    }
+
+    &:nth-child(2n+1) {
+      padding-right: 8px;
+    }
+  }
+
+  .text_list {
+    &.left {
+      padding-right: 8px;
+    }
+
+    &.right {
+      padding-left: 8px;
+    }
+
+
+    & li {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+}
